@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HMSModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HMSEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="HMSModel.Account" />
+    <EntitySet Name="Admins" EntityType="HMSModel.Admin" />
+    <EntitySet Name="Appointments" EntityType="HMSModel.Appointment" />
+    <EntitySet Name="Doctors" EntityType="HMSModel.Doctor" />
+    <EntitySet Name="Employees" EntityType="HMSModel.Employee" />
+    <EntitySet Name="Medicines" EntityType="HMSModel.Medicine" />
+    <EntitySet Name="Patients" EntityType="HMSModel.Patient" />
+    <EntitySet Name="Patient_Bill" EntityType="HMSModel.Patient_Bill" />
+    <EntitySet Name="Wards" EntityType="HMSModel.Ward" />
+  </EntityContainer>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="Bill_ID" />
+    </Key>
+    <Property Name="Bill_ID" Type="Int32" Nullable="false" />
+    <Property Name="Bill_no" Type="Int32" Nullable="false" />
+    <Property Name="Billing_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <Property Name="Account_status" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Discount" Type="Double" />
+    <Property Name="Total_amount" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="User_ID" />
+    </Key>
+    <Property Name="User_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Appointment">
+    <Key>
+      <PropertyRef Name="App_ID" />
+    </Key>
+    <Property Name="App_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="App_no" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="D_ID" Type="Int32" Nullable="false" />
+    <Property Name="App_Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="App_Time" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="P_attendence" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Cancelation" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Doctor">
+    <Key>
+      <PropertyRef Name="D_ID" />
+    </Key>
+    <Property Name="D_ID" Type="Int32" Nullable="false" />
+    <Property Name="D_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Specialization" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Designation" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Dept_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Contact_no" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="E_mail" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Joining_date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="E_ID" />
+    </Key>
+    <Property Name="E_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="E_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="E_type" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Designation" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="D_O_B" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Contact_no" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="E_mail" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Joining_date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Medicine">
+    <Key>
+      <PropertyRef Name="Produdct_ID" />
+    </Key>
+    <Property Name="Produdct_ID" Type="Int32" Nullable="false" />
+    <Property Name="Product_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Company" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Price" Type="Double" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Supply_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Expiration_date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="P_ID" />
+      <PropertyRef Name="Appointment_no" />
+    </Key>
+    <Property Name="P_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="P_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Contact_no" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Disease" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Blood_group" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Appointment_no" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Date" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Patient_Bill">
+    <Key>
+      <PropertyRef Name="Bill_no" />
+    </Key>
+    <Property Name="Bill_no" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="P_ID" Type="Int32" Nullable="false" />
+    <Property Name="P_type" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Doctor_charge" Type="Double" />
+    <Property Name="Lab_charge" Type="Double" />
+    <Property Name="Operation_charge" Type="Double" />
+    <Property Name="Room_charge" Type="Double" />
+    <Property Name="Nursing_charge" Type="Double" />
+    <Property Name="Medicine_charge" Type="Double" />
+    <Property Name="Total_amount" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ward">
+    <Key>
+      <PropertyRef Name="W_ID" />
+    </Key>
+    <Property Name="W_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="W_no" Type="Int32" Nullable="false" />
+    <Property Name="W_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="W_type" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Bed_no" Type="Int32" Nullable="false" />
+    <Property Name="Room_no" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

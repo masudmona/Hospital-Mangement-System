@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="HMSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="HMSModelStoreContainer">
+          <EntitySet Name="Accounts" EntityType="HMSModel.Store.Accounts" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Admin" EntityType="HMSModel.Store.Admin" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Appointment" EntityType="HMSModel.Store.Appointment" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Doctor" EntityType="HMSModel.Store.Doctor" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Employee" EntityType="HMSModel.Store.Employee" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Medicine" EntityType="HMSModel.Store.Medicine" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Patient" EntityType="HMSModel.Store.Patient" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Patient_Bill" EntityType="HMSModel.Store.Patient_Bill" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ward" EntityType="HMSModel.Store.Ward" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Accounts">
+          <Key>
+            <PropertyRef Name="Bill_ID" />
+          </Key>
+          <Property Name="Bill_ID" Type="int" Nullable="false" />
+          <Property Name="Bill_no" Type="int" Nullable="false" />
+          <Property Name="Billing_date" Type="date" Nullable="false" />
+          <Property Name="Amount" Type="float" Nullable="false" />
+          <Property Name="Account_status" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Discount" Type="float" />
+          <Property Name="Total_amount" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="User_ID" />
+          </Key>
+          <Property Name="User_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Password" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Appointment">
+          <Key>
+            <PropertyRef Name="App_ID" />
+          </Key>
+          <Property Name="App_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="App_no" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="D_ID" Type="int" Nullable="false" />
+          <Property Name="App_Date" Type="date" Nullable="false" />
+          <Property Name="App_Time" Type="time" Nullable="false" />
+          <Property Name="P_attendence" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Cancelation" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Doctor">
+          <Key>
+            <PropertyRef Name="D_ID" />
+          </Key>
+          <Property Name="D_ID" Type="int" Nullable="false" />
+          <Property Name="D_name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Specialization" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Designation" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Dept_name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Address" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Contact_no" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="E_mail" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Joining_date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="E_ID" />
+          </Key>
+          <Property Name="E_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="E_name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="E_type" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Designation" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Gender" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="D.O.B" Type="date" Nullable="false" />
+          <Property Name="Address" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Contact_no" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="E_mail" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Joining_date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Medicine">
+          <Key>
+            <PropertyRef Name="Produdct_ID" />
+          </Key>
+          <Property Name="Produdct_ID" Type="int" Nullable="false" />
+          <Property Name="Product_name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Company" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Price" Type="float" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+          <Property Name="Supply_date" Type="date" Nullable="false" />
+          <Property Name="Expiration_date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Patient">
+          <Key>
+            <PropertyRef Name="P_ID" />
+            <PropertyRef Name="Appointment_no" />
+          </Key>
+          <Property Name="P_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="P_name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Age" Type="int" Nullable="false" />
+          <Property Name="Gender" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Address" Type="varchar" MaxLength="50" />
+          <Property Name="Contact_no" Type="varchar" MaxLength="50" />
+          <Property Name="Disease" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Blood_group" Type="varchar" MaxLength="50" />
+          <Property Name="Appointment_no" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Date" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Patient_Bill">
+          <Key>
+            <PropertyRef Name="Bill_no" />
+          </Key>
+          <Property Name="Bill_no" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="P_ID" Type="int" Nullable="false" />
+          <Property Name="P_type" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Doctor_charge" Type="float" />
+          <Property Name="Lab_charge" Type="float" />
+          <Property Name="Operation_charge" Type="float" />
+          <Property Name="Room_charge" Type="float" />
+          <Property Name="Nursing_charge" Type="float" />
+          <Property Name="Medicine_charge" Type="float" />
+          <Property Name="Total_amount" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ward">
+          <Key>
+            <PropertyRef Name="W_ID" />
+          </Key>
+          <Property Name="W_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="W_no" Type="int" Nullable="false" />
+          <Property Name="W_name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="W_type" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Bed_no" Type="int" Nullable="false" />
+          <Property Name="Room_no" Type="int" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HMSModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="HMSEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Accounts" EntityType="HMSModel.Account" />
+          <EntitySet Name="Admins" EntityType="HMSModel.Admin" />
+          <EntitySet Name="Appointments" EntityType="HMSModel.Appointment" />
+          <EntitySet Name="Doctors" EntityType="HMSModel.Doctor" />
+          <EntitySet Name="Employees" EntityType="HMSModel.Employee" />
+          <EntitySet Name="Medicines" EntityType="HMSModel.Medicine" />
+          <EntitySet Name="Patients" EntityType="HMSModel.Patient" />
+          <EntitySet Name="Patient_Bill" EntityType="HMSModel.Patient_Bill" />
+          <EntitySet Name="Wards" EntityType="HMSModel.Ward" />
+        </EntityContainer>
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="Bill_ID" />
+          </Key>
+          <Property Name="Bill_ID" Type="Int32" Nullable="false" />
+          <Property Name="Bill_no" Type="Int32" Nullable="false" />
+          <Property Name="Billing_date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Amount" Type="Double" Nullable="false" />
+          <Property Name="Account_status" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Discount" Type="Double" />
+          <Property Name="Total_amount" Type="Double" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="User_ID" />
+          </Key>
+          <Property Name="User_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Appointment">
+          <Key>
+            <PropertyRef Name="App_ID" />
+          </Key>
+          <Property Name="App_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="App_no" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="D_ID" Type="Int32" Nullable="false" />
+          <Property Name="App_Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="App_Time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="P_attendence" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Cancelation" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Doctor">
+          <Key>
+            <PropertyRef Name="D_ID" />
+          </Key>
+          <Property Name="D_ID" Type="Int32" Nullable="false" />
+          <Property Name="D_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Specialization" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Designation" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Dept_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Contact_no" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="E_mail" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Joining_date" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="E_ID" />
+          </Key>
+          <Property Name="E_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="E_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="E_type" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Designation" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Gender" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="D_O_B" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Contact_no" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="E_mail" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Joining_date" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="Medicine">
+          <Key>
+            <PropertyRef Name="Produdct_ID" />
+          </Key>
+          <Property Name="Produdct_ID" Type="Int32" Nullable="false" />
+          <Property Name="Product_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Company" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Price" Type="Double" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <Property Name="Supply_date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Expiration_date" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="Patient">
+          <Key>
+            <PropertyRef Name="P_ID" />
+            <PropertyRef Name="Appointment_no" />
+          </Key>
+          <Property Name="P_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="P_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Age" Type="Int32" Nullable="false" />
+          <Property Name="Gender" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Contact_no" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Disease" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Blood_group" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Appointment_no" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Date" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Patient_Bill">
+          <Key>
+            <PropertyRef Name="Bill_no" />
+          </Key>
+          <Property Name="Bill_no" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="P_ID" Type="Int32" Nullable="false" />
+          <Property Name="P_type" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Doctor_charge" Type="Double" />
+          <Property Name="Lab_charge" Type="Double" />
+          <Property Name="Operation_charge" Type="Double" />
+          <Property Name="Room_charge" Type="Double" />
+          <Property Name="Nursing_charge" Type="Double" />
+          <Property Name="Medicine_charge" Type="Double" />
+          <Property Name="Total_amount" Type="Double" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ward">
+          <Key>
+            <PropertyRef Name="W_ID" />
+          </Key>
+          <Property Name="W_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="W_no" Type="Int32" Nullable="false" />
+          <Property Name="W_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="W_type" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Bed_no" Type="Int32" Nullable="false" />
+          <Property Name="Room_no" Type="Int32" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HMSModelStoreContainer" CdmEntityContainer="HMSEntities">
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="HMSModel.Account">
+              <MappingFragment StoreEntitySet="Accounts">
+                <ScalarProperty Name="Bill_ID" ColumnName="Bill_ID" />
+                <ScalarProperty Name="Bill_no" ColumnName="Bill_no" />
+                <ScalarProperty Name="Billing_date" ColumnName="Billing_date" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="Account_status" ColumnName="Account_status" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+                <ScalarProperty Name="Total_amount" ColumnName="Total_amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Admins">
+            <EntityTypeMapping TypeName="HMSModel.Admin">
+              <MappingFragment StoreEntitySet="Admin">
+                <ScalarProperty Name="User_ID" ColumnName="User_ID" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Appointments">
+            <EntityTypeMapping TypeName="HMSModel.Appointment">
+              <MappingFragment StoreEntitySet="Appointment">
+                <ScalarProperty Name="App_ID" ColumnName="App_ID" />
+                <ScalarProperty Name="App_no" ColumnName="App_no" />
+                <ScalarProperty Name="D_ID" ColumnName="D_ID" />
+                <ScalarProperty Name="App_Date" ColumnName="App_Date" />
+                <ScalarProperty Name="App_Time" ColumnName="App_Time" />
+                <ScalarProperty Name="P_attendence" ColumnName="P_attendence" />
+                <ScalarProperty Name="Cancelation" ColumnName="Cancelation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Doctors">
+            <EntityTypeMapping TypeName="HMSModel.Doctor">
+              <MappingFragment StoreEntitySet="Doctor">
+                <ScalarProperty Name="D_ID" ColumnName="D_ID" />
+                <ScalarProperty Name="D_name" ColumnName="D_name" />
+                <ScalarProperty Name="Specialization" ColumnName="Specialization" />
+                <ScalarProperty Name="Designation" ColumnName="Designation" />
+                <ScalarProperty Name="Dept_name" ColumnName="Dept_name" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Contact_no" ColumnName="Contact_no" />
+                <ScalarProperty Name="E_mail" ColumnName="E_mail" />
+                <ScalarProperty Name="Joining_date" ColumnName="Joining_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Employees">
+            <EntityTypeMapping TypeName="HMSModel.Employee">
+              <MappingFragment StoreEntitySet="Employee">
+                <ScalarProperty Name="E_ID" ColumnName="E_ID" />
+                <ScalarProperty Name="E_name" ColumnName="E_name" />
+                <ScalarProperty Name="E_type" ColumnName="E_type" />
+                <ScalarProperty Name="Designation" ColumnName="Designation" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="D_O_B" ColumnName="D.O.B" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Contact_no" ColumnName="Contact_no" />
+                <ScalarProperty Name="E_mail" ColumnName="E_mail" />
+                <ScalarProperty Name="Joining_date" ColumnName="Joining_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Medicines">
+            <EntityTypeMapping TypeName="HMSModel.Medicine">
+              <MappingFragment StoreEntitySet="Medicine">
+                <ScalarProperty Name="Produdct_ID" ColumnName="Produdct_ID" />
+                <ScalarProperty Name="Product_name" ColumnName="Product_name" />
+                <ScalarProperty Name="Company" ColumnName="Company" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Supply_date" ColumnName="Supply_date" />
+                <ScalarProperty Name="Expiration_date" ColumnName="Expiration_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Patients">
+            <EntityTypeMapping TypeName="HMSModel.Patient">
+              <MappingFragment StoreEntitySet="Patient">
+                <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+                <ScalarProperty Name="P_name" ColumnName="P_name" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Contact_no" ColumnName="Contact_no" />
+                <ScalarProperty Name="Disease" ColumnName="Disease" />
+                <ScalarProperty Name="Blood_group" ColumnName="Blood_group" />
+                <ScalarProperty Name="Appointment_no" ColumnName="Appointment_no" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Patient_Bill">
+            <EntityTypeMapping TypeName="HMSModel.Patient_Bill">
+              <MappingFragment StoreEntitySet="Patient_Bill">
+                <ScalarProperty Name="Bill_no" ColumnName="Bill_no" />
+                <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+                <ScalarProperty Name="P_type" ColumnName="P_type" />
+                <ScalarProperty Name="Doctor_charge" ColumnName="Doctor_charge" />
+                <ScalarProperty Name="Lab_charge" ColumnName="Lab_charge" />
+                <ScalarProperty Name="Operation_charge" ColumnName="Operation_charge" />
+                <ScalarProperty Name="Room_charge" ColumnName="Room_charge" />
+                <ScalarProperty Name="Nursing_charge" ColumnName="Nursing_charge" />
+                <ScalarProperty Name="Medicine_charge" ColumnName="Medicine_charge" />
+                <ScalarProperty Name="Total_amount" ColumnName="Total_amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Wards">
+            <EntityTypeMapping TypeName="HMSModel.Ward">
+              <MappingFragment StoreEntitySet="Ward">
+                <ScalarProperty Name="W_ID" ColumnName="W_ID" />
+                <ScalarProperty Name="W_no" ColumnName="W_no" />
+                <ScalarProperty Name="W_name" ColumnName="W_name" />
+                <ScalarProperty Name="W_type" ColumnName="W_type" />
+                <ScalarProperty Name="Bed_no" ColumnName="Bed_no" />
+                <ScalarProperty Name="Room_no" ColumnName="Room_no" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

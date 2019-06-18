@@ -1,0 +1,250 @@
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\bin\Debug\HMS.exe
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\bin\Debug\HMS.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.Form3_patient.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\HMS\obj\Debug\HMS.form4_bill.resources
+F:\project_backup\HMS\HMS\bin\Debug\HMS.exe.config
+F:\project_backup\HMS\HMS\bin\Debug\HMS.exe
+F:\project_backup\HMS\HMS\bin\Debug\HMS.pdb
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Form10_medicine.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Form3_patient.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.form4_bill.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Form5_Doctor.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Form6_Employee.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Form7_InPatient.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Form8_LabTest.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+F:\project_backup\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+F:\project_backup\HMS\HMS\obj\Debug\HMS.exe
+F:\project_backup\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form10_medicine.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form11_Staff_schedule.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form12_Doc_schedule.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form13_Accounts_Inf.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form14_department.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form15_Ward.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form16_Room.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form3_patient.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.form4_bill.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form5_Doctor.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form6_Employee.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form7_InPatient.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form8_LabTest.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form9_Appointment.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+C:\Users\BlackKite\HMS\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\BlackKite\HMS\HMS\HMS\bin\Debug\HMS.exe
+C:\Users\BlackKite\HMS\HMS\HMS\bin\Debug\HMS.pdb
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form10_medicine.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form11_Staff_schedule.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form12_Doc_schedule.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form13_Accounts_Inf.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form14_department.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form15_Ward.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form16_Room.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form3_patient.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.form4_bill.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form5_Doctor.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form6_Employee.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form7_InPatient.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form8_LabTest.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Form9_Appointment.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\BlackKite\HMS\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form17_prescription.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form18_record.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form19_settings.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form20_admin.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form21_labrep.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form22_new_acc.resources
+C:\Users\ARMilon\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form23_choice.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\bin\Debug\HMS.exe
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\bin\Debug\HMS.pdb
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form10_medicine.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form11_Staff_schedule.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form12_Doc_schedule.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form13_Accounts_Inf.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form14_department.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form15_Ward.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form16_Room.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form17_prescription.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form18_record.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form19_settings.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form20_admin.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form21_labrep.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form22_new_acc.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form23_choice.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form3_patient.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.form4_bill.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form5_Doctor.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form6_Employee.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form7_InPatient.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form8_LabTest.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Form9_Appointment.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\BlackKite\Pictures\HMS\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form10_medicine.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form11_Staff_schedule.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form12_Doc_schedule.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form13_Accounts_Inf.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form14_department.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form15_Ward.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form16_Room.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form17_prescription.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form18_record.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form19_settings.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form20_admin.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form21_labrep.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form22_new_acc.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form23_choice.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form24_allotment.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form3_patient.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.form4_bill.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form5_Doctor.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form6_Employee.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form7_InPatient.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form9_Appointment.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\bin\Debug\HMS.exe
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\bin\Debug\HMS.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\bin\Debug\EntityFramework.dll
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\bin\Debug\EntityFramework.xml
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.Form8_LabTest.resources
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2012\Projects\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\bin\Debug\HMS.exe.config
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.exe
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form10_medicine.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form11_Staff_schedule.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form12_Doc_schedule.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form13_Accounts_Inf.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form14_department.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form15_Ward.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form16_Room.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form17_prescription.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form18_record.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form19_settings.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form20_admin.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form21_labrep.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form22_new_acc.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form222.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form23_choice.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form24_allotment.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form3_patient.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.form4_bill.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form5_Doctor.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form6_Employee.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form7_InPatient.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form8_LabTest.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Form9_Appointment.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\bin\Debug\HMS.exe
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\bin\Debug\HMS.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\bin\Debug\EntityFramework.dll
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS[19.6.17]\HMS\bin\Debug\EntityFramework.xml
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form10_medicine.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form11_Staff_scheduleUI.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form12_Doc_schedule.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form13_Accounts_Inf.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form14_department.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form15_Ward.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form16_Room.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form17_prescription.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form18_record.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form19_settings.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form20_admin.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form22_new_acc.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Apmnt_edit.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form23_choice.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form24_allotment.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form3_patient.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.form4_bill.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form5_Doctor.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form6_Employee.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form7_InPatient.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form8_LabTest.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form9_Appointment.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\HMS.exe
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\HMS.pdb
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\EntityFramework.dll
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\EntityFramework.xml
+C:\Users\$1$1$1\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form21_rep.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\HMS.exe
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\HMS.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\EntityFramework.dll
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\bin\Debug\EntityFramework.xml
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form1_LoginUI.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form10_medicine.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form11_Staff_scheduleUI.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form12_Doc_schedule.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form13_Accounts_Inf.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form14_department.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form15_Ward.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form16_Room.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form17_prescription.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form18_record.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form19_settings.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form2_Dashboard.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form20_admin.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form21_rep.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form22_new_acc.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Apmnt_edit.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form23_choice.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form24_allotment.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form3_patient.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.form4_bill.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form5_Doctor.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form6_Employee.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form7_InPatient.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form8_LabTest.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form9_Appointment.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\HMS\HMS\obj\Debug\HMS.Form17ex.resources
